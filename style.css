@@ -80,14 +80,26 @@ input:focus {
   width: 55%;
   background-color: rgba(47, 72, 88, 0.8);
   border-radius: 10px;
+  border: 2px solid rgba(47, 72, 88, 0.8);
   font-size: 1rem;
   margin-top: 25px;
   font-weight: 700;
   color: rgba(112, 123, 124, 1);
+  transition: 0.8s;
 }
 .btn2:hover {
   cursor: pointer;
+  animation: button 2s infinite;
+  transform: scale(1.1);
+  color: #ccc;
 }
+/* @keyframes button{
+  0%{transform: scale(1.1);}
+  25%{transform: scale(1.2);}
+  50%{transform: scale(1.1);}
+  75%{transform: scale(1.2);}
+  100%{transform: scale(1.1);}
+} */
 
 /* media query */
 

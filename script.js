@@ -18,7 +18,7 @@ gradecheck.addEventListener("submit", (event) => {
   } else if (percentage >= 50) {
     showgrade.innerText = "Your Grade is C";
   } else if (percentage >= 40) {
-    showgrade.innerText = "You are Fail ☹️";
+    showgrade.innerText = "Your Grade is D ☹️";
   } else {
     showgrade.innerText = "You are Fail ☹️";
   }
